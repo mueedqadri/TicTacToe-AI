@@ -4,6 +4,7 @@ const aiP = 'X';
 const boxs = document.querySelectorAll('.box'); 
 
 function startGame() {
+    
     document.querySelector(".endgame").style.display = "none"
     currentsate = Array.from(Array(9).keys()) 
     for (var i=0; i< 9; i++) {
